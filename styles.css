@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     background-color: rgb(143, 143, 226);
+}
+
+h1 {
+    text-align: center;
+}
+button {
+    background-color: bisque;
+    width: 150px;
+    height: 50px;
+    font-size: 2em;
+    margin:0 auto;
+    display:block;
+}
+
+.container button {
+    background-color: rgb(137, 205, 136);
+    width: 150px;
+    height: 50px;
+    font-size: 2.5em;
+    margin:0 auto;
+    display:block;
 }
