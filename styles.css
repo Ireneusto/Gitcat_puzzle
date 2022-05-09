@@ -39,17 +39,19 @@ button {
 
 .container1 button {
     background-color: rgb(137, 205, 136);
-    width: 150px;
-    height: 50px;
+    width: 280px;
+    height: 280px;
     font-size: 2.5em;
+    color: blue;
     margin-top: 10px;
 }
 
 .container2 button {
     background-color: rgb(137, 205, 136);
-    width: 150px;
-    height: 50px;
+    width: 280px;
+    height: 280px;
     font-size: 2.5em;
+    color: blue;
 }
 
 .container1 {
