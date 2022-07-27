@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
 body {
     background-image: linear-gradient(
   235deg,
@@ -25,43 +19,23 @@ body {
 }
 
 h1 {
-    text-align: center;
-    
+  text-align: center;
 }
-button {
-    background-color: bisque;
-    width: 150px;
-    height: 50px;
-    font-size: 2em;
+
+#grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    display: block;
 }
 
-.container1 button {
-    background-color: rgb(137, 205, 136);
-    width: 280px;
-    height: 280px;
-    font-size: 2.5em;
-    color: blue;
-    margin-top: 10px;
-}
-
-.container2 button {
-    background-color: rgb(137, 205, 136);
-    width: 280px;
-    height: 280px;
-    font-size: 2.5em;
-    color: blue;
-}
-
-.container1 {
-    display: grid;
-     grid-template-columns: auto auto;
-     justify-content: center;
-}
-
-.container2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
+button {
+  background-color: bisque;
+  width: 150px;
+  height: 50px;
+  font-size: 2em;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
 }
